@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>my spa</title>
+    <style>
+        body{direction: rtl;}
+        td{border: 1px solid black;}
+        th{background-color: aqua;}
+        tbody tr:nth-child(even) {background-color: lightgray;}
+        tbody tr:hover{background-color: yellow;}
+    </style>
 </head>
 <body>
-<h1>cuer</h1>
+<h1>טבלה חדשה </h1>
+<table>
+    <thead>
+    <tr>
+        <th>שם</th>
+        <th>טלפון</th>
+        <th>תיבה</th>
+    </tr>
+    </thead>
+    <tbody id="mainTable">  </tbody>
+</table>
 </body>
 </html>
